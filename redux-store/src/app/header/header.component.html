@@ -1,0 +1,22 @@
+<!-- src/app/header/header.component.html -->
+
+<div style="position: fixed; top: 0px; width:100%;">
+    <header>
+        <div class="brand">
+            <img src="/assets/images/logo.png" alt="avatar" />
+            <h5>The Food Store</h5>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>
+                    <img src="/assets/images/shopping-bag.png" alt="cart" style="width: 7em;" />
+                    <span class="badge" *ngIf="cart.length > 0">{{ cart.length }}</span>
+                    
+                </li> 
+            </ul>
+        </div>
+    
+    </header>
+    
+</div>
+
